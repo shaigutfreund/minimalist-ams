@@ -1,3 +1,7 @@
+/**
+ * This is a protected page that requires authentication.
+ * If the user is not authenticated, they will be redirected to the login page.
+ */
 import { redirect } from 'next/navigation'
 
 import { LogoutButton } from '@/components/logout-button'
